@@ -1,0 +1,10 @@
+<nav aria-label="Main menu">
+  <button (click)="toggleMenu()" [attr.aria-expanded]="isMenuOpen" aria-controls="menu-list">
+    Menu
+  </button>
+  <ul id="menu-list" *ngIf="isMenuOpen">
+    <li><a href="#">Dashboard</a></li>
+    <li><a href="#">Tasks</a></li>
+    <li><a href="#">Teams</a></li>
+  </ul>
+</nav>

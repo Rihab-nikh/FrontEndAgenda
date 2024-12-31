@@ -1,0 +1,27 @@
+/* Basic styling for the menu */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #2563EB;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  ul {
+    display: block;
+  }
+  li {
+    display: block;
+  }
+}
